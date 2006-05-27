@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:FIELDNAME} = models.IntegerField(${2:blank=True})</string>
+	<string>${1:FIELDNAME} = models.PositiveSmallIntegerField(${2:blank=True, null=True})</string>
 	<key>name</key>
-	<string>IntegerField (integer)</string>
+	<string>PositiveSmallIntegerField (possmall)</string>
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>integer</string>
+	<string>possmall</string>
 	<key>uuid</key>
-	<string>636921D5-6D30-44DC-B49A-4188DF6A8477</string>
+	<string>9F2FB381-651B-420F-9835-0CADEA5DF7EF</string>
 </dict>
 </plist>

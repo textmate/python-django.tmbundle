@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% if $1 %}
-	$2
-{% endif %}</string>
+	<string>${1:FIELDNAME} = models.TimeField(${2:blank=True})</string>
 	<key>name</key>
-	<string>if</string>
+	<string>TimeField (time)</string>
 	<key>scope</key>
-	<string>text.html.django</string>
+	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>if</string>
+	<string>time</string>
 	<key>uuid</key>
-	<string>BD0117AD-3FE8-4E5D-B935-43DB3DD784E7</string>
+	<string>343CDE2F-C489-4437-B316-2881C5F1C854</string>
 </dict>
 </plist>

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% templatetag closevariable %}</string>
+	<string>${1:FIELDNAME} = models.NullBooleanField(${2:default=True})</string>
 	<key>name</key>
-	<string>templatetag: closevariable</string>
+	<string>NullBooleanField (nullbool)</string>
 	<key>scope</key>
-	<string>text.html.django</string>
+	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>}}</string>
+	<string>nullbool</string>
 	<key>uuid</key>
-	<string>373F257A-070E-4A98-90F9-573D4CF559D6</string>
+	<string>21013818-A691-4E96-A889-70A0F2F28557</string>
 </dict>
 </plist>

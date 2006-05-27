@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% filter $1 %}
-	$2
-{% endfilter %}</string>
+	<string>${1:FIELDNAME} = models.SmallIntegerField(${2:blank=True, null=True})</string>
 	<key>name</key>
-	<string>filter</string>
+	<string>SmallIntegerField (smallinteger)</string>
 	<key>scope</key>
-	<string>text.html.django</string>
+	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>filter</string>
+	<string>smallinteger</string>
 	<key>uuid</key>
-	<string>62F689B9-6665-44E8-9DCB-C1766018B369</string>
+	<string>E9B61D15-B2CC-4202-9F2D-9AE2C09219BF</string>
 </dict>
 </plist>

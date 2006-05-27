@@ -3,14 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% debug %}</string>
+	<string>${1:FIELDNAME} = models.PositiveIntegerField(${2:blank=True, null=True})</string>
 	<key>name</key>
-	<string>debug</string>
+	<string>PositiveIntegerField (posint)</string>
 	<key>scope</key>
-	<string>text.html.django</string>
-	<key>tabTrigger</key>
-	<string>debug</string>
+	<string>source.python.django</string>
 	<key>uuid</key>
-	<string>813FEE58-FAF2-4031-9E13-26168E30B6F3</string>
+	<string>4EFDEB25-E308-4708-9F2F-594582B5CCE0</string>
 </dict>
 </plist>

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% templatetag closeblock %}</string>
+	<string>${1:FIELDNAME} = models.IntegerField(${2:blank=True, null=True})</string>
 	<key>name</key>
-	<string>templatetag: closeblock</string>
+	<string>IntegerField (integer)</string>
 	<key>scope</key>
-	<string>text.html.django</string>
+	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>%}</string>
+	<string>integer</string>
 	<key>uuid</key>
-	<string>549349F9-DE08-4871-8C6E-F77FBF44DEAE</string>
+	<string>636921D5-6D30-44DC-B49A-4188DF6A8477</string>
 </dict>
 </plist>
