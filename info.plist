@@ -10,6 +10,10 @@
 	<string>Support for the &lt;a href="http://www.djangoproject.com/"&gt;Django web framework&lt;/a&gt; (Python).</string>
 	<key>mainMenu</key>
 	<dict>
+		<key>excludedItems</key>
+		<array>
+			<string>C98C3E31-20F8-4C32-8940-4BC576CEA6A4</string>
+		</array>
 		<key>items</key>
 		<array>
 			<string>5F79A28E-E2FA-4266-A069-2983B8828C04</string>
