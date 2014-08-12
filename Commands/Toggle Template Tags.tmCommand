@@ -58,7 +58,7 @@ print result</string>
 	<key>outputLocation</key>
 	<string>replaceInput</string>
 	<key>scope</key>
-	<string>meta.scope.django.template.tag, variable.other.django.template</string>
+	<string>meta.scope.django.template.tag, meta.tag.template.variable.django.template</string>
 	<key>uuid</key>
 	<string>C98C3E31-20F8-4C32-8940-4BC576CEA6A4</string>
 	<key>version</key>
