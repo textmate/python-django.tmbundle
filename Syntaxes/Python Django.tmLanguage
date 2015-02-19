@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
-	<array/>
+	<array>
+		<string>py</string>
+	</array>
 	<key>keyEquivalent</key>
 	<string>^~P</string>
 	<key>name</key>
